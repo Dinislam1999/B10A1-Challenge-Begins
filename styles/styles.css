@@ -171,6 +171,7 @@ padding: 0 2px;
 .My-Inspiration{
     align-items: center;
     text-align: center;
+    margin-top: 35px;
 }
 .My-Inspiration-header{
     color: rgb(13, 19, 33);
@@ -189,4 +190,97 @@ padding: 0 2px;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+}
+.My-Current-Target{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.My-Current-Target-header{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.My-Current-Target-paragraph{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Target{
+    display: flex;
+    align-items: center;
+}
+.Target-content1{
+    position: static;
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5;
+    padding: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+.Target-content2{
+    position: static;
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5;
+    padding: 40px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+.Target-content3{
+    position: static;
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5;
+    padding: 40px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+.Target-header{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Target-paragraph{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
 }
