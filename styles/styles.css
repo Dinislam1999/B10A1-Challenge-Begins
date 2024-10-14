@@ -386,68 +386,26 @@ padding: 0 2px;
     letter-spacing: 0%;
     text-align: center;
 }
-.footer-content{
-    position: absolute;
-    width: 1140px;
-    height: 313px;
-    left: 150px;
-    right: 150px;
-    top: 4752px;
-    bottom: 180px;
+.need-support{
+    margin-top: 50px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.603);
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 9px;
+}
+
+.footer{
+    background-color: gainsboro;
+}
+
+.foot{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 32;
-    padding: 64px 48px 64px 48px;
-    border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
-
-}
-.need{
-position: static;
-/* width: 292px;
-height: 36px; */
-/* display: flex; */
-/* flex-direction: column; */
-justify-content: center;
-align-items: center;
-gap: 16;
-padding: 0px;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 20px 0px;
-}
-.need-p{
-position: static;
-/* width: 606px;
-height: 52px; */
-/* display: flex; */
-/* flex-direction: column; */
-justify-content: center;
-align-items: center;
-gap: 16;
-padding: 0px;
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 20px 0px;
-}
-.footer-content{
-position: absolute;
-/* width: 1140px;
-height: 313px;
-left: 150px;
-right: 150px;
-top: 4752px;
-bottom: 180px; */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 32;
-padding: 64px 48px 64px 48px;
-
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 50px;
 }
